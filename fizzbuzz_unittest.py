@@ -9,3 +9,7 @@ class fizzbuzz_test(unittest.TestCase):
     def test_fizz_2_pass(self):
         result = fizzbuzz.fizzbuzz_loop(3)
         self.assertEqual(result, 2)
+
+    def test_fizz_3_pass(self):
+        result = fizzbuzz.fizzbuzz_loop(5)
+        self.assertEqual(result, 3)
