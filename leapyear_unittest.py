@@ -17,3 +17,7 @@ class leapyear_test(unittest.TestCase):
     def test_leapyear_fail(self):
         result = leapyeap.leap_year(2001)
         self.assertEqual(result,1)
+
+    def test_leapyear_2_fail(self):
+        result = leapyeap.leap_year(2003)
+        self.assertEqual(result,1)
