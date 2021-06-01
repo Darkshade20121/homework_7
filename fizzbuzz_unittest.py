@@ -22,3 +22,8 @@ class fizzbuzz_test(unittest.TestCase):
         result = fizzbuzz.fizzbuzz_loop(150)
         self.assertEqual(result, 3)
 
+    def test_fizz_3_fail(self):
+        result = fizzbuzz.fizzbuzz_loop(1)
+        self.assertEqual(result, 1)
+
+
