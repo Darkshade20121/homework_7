@@ -2,7 +2,7 @@ def main():
     fizzbuzz()
 
 def fizzbuzz():
-    for i in range(100):
+    for i in range(101):
         temp = fizzbuzz_loop(i)
         if(temp == 1):
             print("FizzBuzz")
