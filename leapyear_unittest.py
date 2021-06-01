@@ -7,21 +7,21 @@ class leapyear_test(unittest.TestCase):
         self.assertEqual(result,1)
 
     def test_leapyear_2_pass(self):
-        result = leapyeap.leap_year(2004)
+        result = leapyear.leap_year(2004)
         self.assertEqual(result,1)
 
     def test_leapyear_3_pass(self):
-        result = leapyeap.leap_year(2008)
+        result = leapyear.leap_year(2008)
         self.assertEqual(result,1)
     
     def test_leapyear_fail(self):
-        result = leapyeap.leap_year(2001)
+        result = leapyear.leap_year(2001)
         self.assertEqual(result,1)
 
     def test_leapyear_2_fail(self):
-        result = leapyeap.leap_year(2003)
+        result = leapyear.leap_year(2003)
         self.assertEqual(result,1)
 
     def test_leapyear_3_fail(self):
-        result = leapyeap.leap_year(2000)
+        result = leapyear.leap_year(2000)
         self.assertEqual(result,0)
