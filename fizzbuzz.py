@@ -1,7 +1,17 @@
 def main():
     fizzbuzz()
 
-
+def fizzbuzz():
+    for i in range(100):
+        temp = fizzbuzz_loop(i)
+        if(temp == 1):
+            print("FizzBuzz")
+        elif(temp == 2):
+            print("Fizz")
+        elif(temp == 3):
+            print("Buzz")
+        else:
+            print(i)
 
 
 def fizzbuzz_loop(i):
